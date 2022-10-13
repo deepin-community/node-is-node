@@ -1,0 +1,13 @@
+node-is-node (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bumping debhelper-compat (no changes).
+  * Removing 'Testsuite: autopkgtest-pkg-nodejs': no tests.
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 02 Nov 2020 00:37:13 -0500
+
+node-is-node (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #962634)
+
+ -- Harley Swick <fancycade@protonmail.com>  Tue, 26 May 2020 21:49:04 -0500

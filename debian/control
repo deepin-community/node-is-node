@@ -1,0 +1,28 @@
+Source: node-is-node
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders:
+ Harley Swick <fancycade@protonmail.com>,
+Build-Depends:
+ debhelper-compat (= 13),
+ nodejs (>= 6),
+ pkg-js-tools (>= 0.9.35),
+Standards-Version: 4.5.0
+Homepage: https://github.com/MatthewNPM/is-node
+Vcs-Git: https://salsa.debian.org/js-team/node-is-node.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-node
+Rules-Requires-Root: no
+
+Package: node-is-node
+Architecture: all
+Depends:
+ nodejs (>= 6),
+ ${misc:Depends},
+Description: Detects if the current process is a node application
+ is-node is a very simple package that is used to ensure that
+ the current running process is actually a node application.
+ .
+ Use cases will likely be for testing or other types of system validation.
+ .
+ This package is used by other Debian packages as a dependency.
